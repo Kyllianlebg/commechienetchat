@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet"
+          href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css') }}"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="{{ asset('../assets/styles/css/templatemo-woox-travel.css') }}" type="text/css"
+          media="all"/>
+    <link rel="stylesheet" href="{{ asset('../assets/vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css"
+          media="all"/>
+    <link rel="stylesheet" href="{{ asset('../assets/styles/css/owl.css') }}" type="text/css" media="all"/>
+    <link rel="canonical" href="{{ asset('https://getbootstrap.com/docs/5.2/examples/features/') }}"/>
+    <link rel="canonical" href="{{ asset('https://getbootstrap.com/docs/5.2/examples/sign-in/') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/styles/css/signin.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('../assets/styles/css/animate.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ asset('../assets/styles/css/flex-slider.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ asset('../assets/styles/css/fontawesome.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet"
+          href="{{ asset('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap') }}"
+          type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ asset('https://unpkg.com/swiper@7/swiper-bundle.min.css') }}" type="text/css"
+          media="all"/>
+    <title>Chat'Alors</title>
+</head>
+
+<body>
+
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="https://facebook.com" class="logo">
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="/" class="active">Accueil</a></li>
+                        <li><a href="https://facebook.com">À Propos</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/login"><i class="fa-solid fa-user"></i></a></li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main class="form-signin w-100 m-auto">
+    <form>
+        <h1 class="logintitle">Connexion</h1>
+
+        <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Adresse email</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Mot de passe</label>
+        </div>
+
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Se souvenir de moi
+            </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Se connecter</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+    </form>
+</main>
+
+</body>
+
+</html>
